@@ -6,7 +6,7 @@ metadata:
 spec:
   type: Python
   mode: cluster
-  image: "registry.neomsa.ru/docker-mlops/mlops/batch-images/batch-model-breast_cancer:2"
+  image: "nexus.do.neoflex.ru:30351/mlops/batch-images/batch-model-breast_cancer:2"
   imagePullPolicy: Always
   mainApplicationFile: "local:///model/test7_spark_job.py"
   sparkVersion: 3.1.1
